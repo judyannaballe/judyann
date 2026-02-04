@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Judy Ann Aballe</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6a6a, #fcb045);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            background: rgba(0,0,0,0.3);
+            padding: 50px 80px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            color: #fcb045;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffe6b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I'M JUDY ANN ABALLE</h1>
+        <button onclick="welcomeMessage()">Enter</button>
+    </div>
+
+    <script>
+        function welcomeMessage() {
+            alert("HI! WELCOME, JUDY ANN ABALLE!");
+        }
+    </script>
+</body>
+</html>
